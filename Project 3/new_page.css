@@ -1,0 +1,79 @@
+h1{
+    color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 35px;
+    position: absolute;
+    top: -10px;
+    left:20px;
+}
+
+.danke{
+    
+ color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 30px;
+}
+
+#enter{
+    position: absolute;
+    top:250px;
+    left: 380px;
+    z-index: 2
+}
+
+#playstation{
+ color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#dick{
+ color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 25px;
+    position: absolute;
+    bottom: 65px;
+    right: 20px;
+}
+
+#dont{
+ color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 25px;
+    position: absolute;
+    bottom: 115px;
+    right: 20px;
+}
+
+#soon{
+ color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 25px;
+    position: absolute;
+    bottom: 165px;
+    right: 20px;
+}
+
+.poop{
+    background-image: url(https://media.giphy.com/media/KOeyfnuKOThBu/giphy.gif);
+    
+ color:blue;
+ font-family: 'PT Mono', monospace;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    LEFT: 20px;
+}
+
+#chart{
+
+    position: absolute;
+    top: 160px;
+    LEFT: 360px;
+
+
+
+

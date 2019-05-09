@@ -1,0 +1,206 @@
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+ .grid {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1em;
+}
+
+header,
+aside,
+article,
+footer {
+  background: #eaeaea;
+  padding: 1em;
+}
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+}
+
+.grid > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+    
+@font-face {
+  font-family: "Acronym";
+  font-style: Regular;
+  src: url("Acronym-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Acronym";
+  font-style: Bold;
+  src: url("Acronym-Bold.woff") format("woff");
+}
+
+
+#div1 {
+    display: block;
+    width: 50px;
+    height: 400px;
+    background-color: lawngreen;
+    border: 1px solid ;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Acronym;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#div2 {
+    display: block;
+    width: 50px;
+    height: 400px;
+    background-color: deeppink;
+    border: 1px solid blue;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Acronym;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+
+}
+
+#div3 {
+    display: block;
+    width: 50px;
+    height: 400px;
+    background-color: blue;
+    border: 1px solid blue;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Acronym;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+
+#div4 {
+    display: block;
+    width: 50px;
+    height: 400px;
+    background-color: blue;
+    border: 1px solid blue;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Acronym;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+

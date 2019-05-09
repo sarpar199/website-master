@@ -1,0 +1,581 @@
+
+/*A3 main form*/
+.rectangle3 {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	position: absolute;
+	top: 100px;
+	left: 650px;
+}
+/*A3 center fill*/
+.rectangle4 {
+	width: 100px;
+	height: 50px;
+	background: purple;
+	position: absolute;
+	top: 150px;
+	left: 700px;
+	z-index: 3;
+
+	/* Transition */
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.rectangle4:hover {
+	width: 0px;
+	background-color: #00CED1;
+}
+
+.rectangle4-2 {
+	width: 100px;
+	height: 50px;
+	background: beige;
+	position: absolute;
+	top: 150px;
+	left: 700px;
+}
+
+/*A3 bottom hole*/
+.rectangle5 {
+	width: 100px;
+	height: 50px;
+	background: beige;
+	position: absolute;
+	top: 250px;
+	left: 700px;
+}
+
+/*-----------------------------------------------*/
+
+/*A4 main form*/
+.rectangle6 {
+	width: 200px;
+	height: 200px;
+	background: dodgerblue;
+	position: absolute;
+	top: 100px;
+	left: 900px;
+}
+/*A4 center hole*/
+.circle3 {
+	width: 50px;
+	height: 50px;
+	background: beige;
+	border-radius: 25px;
+	position: absolute;
+	top: 140px;
+	left: 975px;
+}
+/*A4 bottom hole*/
+.circle4 {
+	width: 100px;
+	height: 75px;
+	background: orange;
+	border-radius: 25px 25px 0px 0px;
+	position: absolute;
+	top: 225px;
+	left: 950px;
+	z-index: 3;
+
+	/* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;	
+}
+.circle4:hover {
+	height: 0px;
+	background-color: salmon;
+}
+.circle4-2 {
+	width: 100px;
+	height: 75px;
+	background: beige;
+	border-radius: 25px 25px 0px 0px;
+	position: absolute;
+	top: 225px;
+	left: 950px;
+}
+
+/*-----------------------------------------------*/
+
+/*A5 main form*/
+.circle5 {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	border-radius: 100px;
+	position: absolute;
+	top: 100px;
+	left: 1150px;
+}
+/*A5 center hole*/
+.rectangle7 {
+	width: 150px;
+	height: 50px;
+	background: beige;
+	position: absolute;
+	top: 150px;
+	left: 1125px;
+}
+/*bottom hole*/
+.circle6 {
+	width: 50px;
+	height: 50px;
+	background: dodgerblue;
+	border-radius: 25px;
+	position: absolute;
+	top: 225px;
+	left: 1225px;
+	z-index: 3;
+
+	/* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.circle6:hover {
+	height: 0px;
+	background-color: #00CED1;
+}
+.circle6-2 {
+	width: 50px;
+	height: 50px;
+	background: beige;
+	border-radius: 25px;
+	position: absolute;
+	top: 225px;
+	left: 1225px;
+}
+
+#twelve-point-star {
+   height: 550px;
+   width: 150px;
+   background: blue;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+    z-index: 2
+}
+#twelve-point-star:before {
+   height: w00px;
+   width: 100px;
+   background: blue;
+   content:"";
+   position: absolute;
+   /* Rotate */
+   -moz-transform: rotate(30deg);
+   -webkit-transform: rotate(30deg);
+   -ms-transform: rotate(30deg);
+   -o-transform: rotate(30deg);
+   transform: rotate(30deg);
+}
+#twelve-point-star:after {
+   height: 100px;
+   width: 100px;
+   background: blue;
+   content:"";
+   position: absolute;
+   /* Rotate */
+   -moz-transform: rotate(-30deg);
+   -webkit-transform: rotate(-30deg);
+   -ms-transform: rotate(-30deg);
+   -o-transform: rotate(-30deg);
+   transform: rotate(-30deg);
+    
+      /* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+#twelve-point-star:hover {
+	height: 0px;
+	background-color: #00CED1;  
+}
+
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: orange;
+	border-radius: 100px;
+	position: absolute;
+	top: 125px;
+	left: 125px;
+    
+    /* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.circle:hover {
+	height: 0px;
+	background-color: #00CED1;
+}
+
+.circle1 {
+	width: 120px;
+	height: 120px;
+	background: orange;
+	border-radius: 100px;
+	position: absolute;
+	top: 285px;
+	left: 460px;
+        /* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.circle1:hover {
+	height: 0px;
+	background-color: #00CED1;
+
+    
+}
+#parallelogram {
+      width: 250px;
+      height: 250px;
+      transform: skew(20deg);
+      background: red;
+      position: absolute;
+      top: 40;
+	  left: 250;
+}
+
+#parallelogram2 {
+      width: 360px;
+      height: 50px;
+      transform: skew(-45deg);
+      background: red;
+      position: absolute;
+      top: 400px;
+	  left:150;
+}
+
+
+ #space-invader {
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 yellow,
+      3em -3em 0 0 yellow,
+      -2em -2em 0 0 yellow,
+      2em -2em 0 0 yellow,
+      -3em -1em 0 0 yellow,
+      -2em -1em 0 0 yellow,
+      2em -1em 0 0 yellow,
+      3em -1em 0 0 yellow,
+      -4em 0 0 0 yellow,
+      -3em 0 0 0 yellow,
+      3em 0 0 0 yellow,
+      4em 0 0 0 yellow,
+      -5em 1em 0 0 yellow,
+      -4em 1em 0 0 yellow,
+      4em 1em 0 0 yellow,
+      5em 1em 0 0 yellow,
+      -5em 2em 0 0 yellow,
+      5em 2em 0 0 yellow,
+      -5em 3em 0 0 yellow,
+      -3em 3em 0 0 yellow,
+      3em 3em 0 0 yellow,
+      5em 3em 0 0 yellow,
+      -2em 4em 0 0 yellow,
+      -1em 4em 0 0 yellow,
+      1em 4em 0 0 yellow,
+      2em 4em 0 0 yellow;
+      background: yellow;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+      transform: skew(20deg);
+     position: absolute;
+      top: 100;
+	  left: 300;
+         /* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.space-invader:hover {
+	height: 0px;
+	background-color: #00CED1;
+}
+
+    #egg {
+      display: block;
+      width: 300px;
+      height: 380px;
+      background-color: green;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+      top: 90;
+	  left: 660;
+    }
+
+.circle2 {
+	width: 120px;
+	height: 220px;
+	background: pink;
+	border-radius: 100px;
+	position: absolute;
+	top: 175px;
+	left: 750px;
+    z-index: 2
+}
+
+.circle3 {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 100px;
+	position: absolute;
+	top: 335px;
+	left: 650px;
+    z-index: 3
+}
+
+.circle4 {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 100px;
+	position: absolute;
+	top: 335px;
+	left: 875px;
+    z-index: 3
+}
+  #square {
+      width: 100px;
+      height: 400px;
+      background: green;
+      	position: relative;
+	top: 250px;
+	left: 675px;
+      z-index: -1
+    }
+
+ #square1 {
+      width: 100px;
+      height: 400px;
+      background: green;
+      	position: relative;
+	top: -150px;
+	left: 835px;
+      z-index: -1
+    }
+
+
+.circle3 {
+	width: 100px;
+	height: 75px;
+	background: orange;
+	border-radius: 25px 25px 0px 0px;
+	position: absolute;
+	top: 275px;
+	left: 760px;
+	z-index: 3;
+
+	/* Transition */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: height;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;	
+}
+.circle3:hover {
+	height: 0px;
+	background-color: salmon;
+}
+.rectangle4 {
+	width: 300px;
+	height: 550px;
+	background: bl
+	position: absolute;
+	top: 110px;
+	left: 1100px;
+	z-index: 3;
+
+	/* Transition */
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.rectangle4:hover {
+	width: 0px;
+	background-color: #00CED1;
+}
+ .rectangle5 {
+	width: 300px;
+	height: 75px;
+	background: yellow;
+	position: absolute;
+	top: 110px;
+	left: 1100px;
+	z-index: 4;
+
+	/* Transition */
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.rectangle5:hover {
+	width: 0px;
+	background-color: orangered;
+    
+}
+ .rectangle6 {
+	width: 200px;
+	height: 75px;
+	background: yellow;
+	position: absolute;
+	top: 340px;
+	left: 1100px;
+	z-index: 4;
+
+	/* Transition */
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.rectangle6:hover {
+	width: 0px;
+	background-color: orangered;
+    
+    }
+ 
+.rectangle7 {
+	width: 300px;
+	height: 75px;
+	background: yellow;
+	position: absolute;
+	top: 585px;
+	left: 1100px;
+	z-index: 4;
+
+	/* Transition */
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in;
+
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.rectangle7:hover {
+	width: 0px;
+	background-color: orangered;
+    
+}
+.cool {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: cool; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+.cool {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+.cool {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+   .wrap {
+  margin: 50px;
+}
+
+.container {
+  display: inline-block;
+  width: 300px;
+}
+
+h1 {
+  color: lightgray;
+  font-family: lato;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box {
+  border-radius: 5px;
+  height: 40px;
+  margin: 50px auto;
+  width: 80px;
+}
+.wrap:hover & {
+    transform: scale(2);
+  }
+
+.box1 {
+  background: mediumturquoise;
+}
+
+.box2 {
+  background: #2b3f53;
+  transition: all 1s;
+}
+
+     
+    }

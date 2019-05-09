@@ -1,0 +1,28 @@
+button {
+display: block;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(153,21,21,1) 75%, rgba(4,0,0,1) 100%);
+color: blue;
+font-size: 50px;
+font-family: cursive;
+border-radius: 300px;
+width: 380px;
+height: 180px;
+border: 0 solid black;
+transition: 0.3s;
+position: absolute
+top: 40px;
+
+}
+
+button:hover {
+	background-color: greenyellow;
+	color: white;
+
+}
+
+#change {
+ color: red;
+ font-family: cursive;
+ font-size: 7rem;
+}
+
