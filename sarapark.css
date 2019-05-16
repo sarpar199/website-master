@@ -1,0 +1,90 @@
+{
+    background: background: #D0E4F5 url("http://photos1.blogger.com/blogger/7670/2521/1600/thats_hot.jpg") repeat scroll 50% 50%;
+    
+}
+    
+    body {
+	background-color: blue;
+	font-size: 30px;
+    color:aliceblue;
+    font-family: sans-serif;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -22px -13px 8px rgba(406,0,0,0);
+    
+}
+
+#title {
+	position: absolute;
+    top:-70px;
+    left: -20px;
+    
+   
+}
+
+#class {
+    position: absolute;
+    top:-200px;
+    right: -455px;
+   
+}
+    
+
+#Exercise1 {
+    position: absolute;
+    top:200px;
+    left: 40px;
+}
+
+#Exercise2 {
+    position: absolute;
+    top:250px;
+    left: 40px;
+}
+
+#Exercise3 {
+    position: absolute;
+    top:300px;
+    left: 40px;
+}
+
+#Exercise4 {
+    position: absolute;
+    top:350px;
+    left: 40px;
+}
+
+#Exercise6 {
+    position: absolute;
+    top:400px;
+    left: 40px;
+}
+
+#Exercise7 {
+    position: absolute;
+    top:450px;
+    left: 40px;
+}
+
+#Project1 {
+    position: absolute;
+    top:550px;
+    left: 40px;
+}
+
+#Project2 {
+    position: absolute;
+    top:600px;
+    left: 40px;
+}
+
+#Project3 {
+    position: absolute;
+    top:650px;
+    left: 40px;
+}
+
+
+
+
+
+	
+	

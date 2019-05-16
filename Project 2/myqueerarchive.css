@@ -5,7 +5,7 @@ body {
 
 @font-face{
 	font-family: "Mister Pixel";
-	src: url("Mister Pixel Regular.otf") format("opentype");
+	src: url("common/Mister Pixel Regular.otf") format("opentype");
 	
 }
 
@@ -22,7 +22,6 @@ body {
 	width: 630px;
 	height: 750px;
 	color: white;
-	border: 5px dashed white;
 	z-index: 99;
 	margin: 50px;
 	padding: 50px;
