@@ -1,6 +1,8 @@
+}
+
 body {
 	background-color: black;
-	font-size: 65px;
+	font-size: 20px;
 }
 
 @font-face{
@@ -11,7 +13,6 @@ body {
 
 #cursor: url(img/animated_cursor.gif), auto;
 
-}
 
 .module {
   cursor: url('https://giphy.com/stickers/swag-sparkly-bling-AlgFR3hjgOsrS'), auto;	
