@@ -1,8 +1,7 @@
-}
-
-body {
-	background-color: black;
+body { background-color: black;
 	font-size: 20px;
+    
+    
 }
 
 @font-face{
@@ -13,6 +12,7 @@ body {
 
 #cursor: url(img/animated_cursor.gif), auto;
 
+}
 
 .module {
   cursor: url('https://giphy.com/stickers/swag-sparkly-bling-AlgFR3hjgOsrS'), auto;	
@@ -713,8 +713,7 @@ body {
 .back {
 	padding: 50px;
 	box-sizing: border-box;
-	color: white;
-	background-color: #white;
+	color: black;
 
 }
 
